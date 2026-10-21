@@ -24,6 +24,6 @@ PHSENA pH (native); ADCPTD east/north velocity vs bin depth. Data is read
 directly from `s3://ooi-data`; only PNGs are written to `output/`.
 
 ```
-python blowdown.py              # all events
-python blowdown.py axial_2026   # one event
+uv run python blowdown.py              # all events
+uv run python blowdown.py axial_2026   # one event
 ```

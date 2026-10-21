@@ -1,0 +1,14 @@
+[project]
+name = "adhoc-data-requests"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "xarray",
+    "zarr>=3",
+    "s3fs",
+    "dask",
+    "matplotlib",
+]
+
+[tool.uv]
+package = false

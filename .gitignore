@@ -5,3 +5,4 @@ __pycache__/
 *.nc
 *.zarr/
 .DS_Store
+.venv/
